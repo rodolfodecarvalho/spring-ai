@@ -1,0 +1,11 @@
+GET http://localhost:8080/bookstore/informations?
+    message={{$random.alphanumeric(8)}}
+
+###
+
+GET http://localhost:8080/bookstore/informations
+
+###
+
+GET http://localhost:8080/bookstore/reviews?
+    book={{$random.alphanumeric(8)}}
